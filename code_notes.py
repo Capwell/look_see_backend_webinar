@@ -48,7 +48,7 @@ from homepage import views
 urlpatterns = [
     path('', views.index),
     path('admin/', admin.site.urls),
-
+]
 
 # функция сама
 # catalog/views.py
@@ -92,3 +92,6 @@ class Course(models.Model):
 
     def __str__(self):
         return self.name
+
+
+course_list = Course.objects.all()

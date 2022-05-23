@@ -5,7 +5,7 @@ a = 'hello world'
 print(a)
 
 # целое число
-a = 10
+a = 3 + 5
 
 # список
 a = ['hello', 'world']
