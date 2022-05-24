@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 
 # прописываем путь. Возми из файла views функцию index
 # look_see/urls.py
-from homepage import views
+from catalog import views
 
 
 urlpatterns = [
